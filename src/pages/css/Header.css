@@ -1,0 +1,211 @@
+a {
+    text-decoration: none !important;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.css-1191obr-MuiPaper-root-MuiAppBar-root,
+.css-19z1ozs-MuiPaper-root-MuiAppBar-root {
+    background-image: radial-gradient( circle 263px at 100.2% 3%,  rgba(12,85,141,1) 31.1%, rgba(205,181,93,1) 36.4%, rgba(244,102,90,1) 50.9%, rgba(199,206,187,1) 60.7%, rgba(249,140,69,1) 72.5%, rgba(12,73,116,1) 72.6% ) !important;    /* overflow-y: hidden !important; */
+}
+
+.main_text,.user_text,.logo_text{
+    color: white !important;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0 !important;
+}
+
+.main_menu {
+    padding: 10px !important;
+}
+
+.css-zxdg2z {
+    padding: 10px !important;
+}
+
+.main_menu li a {
+    color: black;
+    transition: 0.5s !important;
+}
+.css-2dum1v-MuiDrawer-docked .main_menu li a{
+    display: block;
+    width: fit-content;
+}
+
+.Dashboard_div {
+    background-color: #1350ba !important;
+    background-image: linear-gradient(to bottom, rgba(0, 251, 255, 0.5) 0%, rgba(0, 0, 0, 0.50) 100%), radial-gradient(at 50% 0%, rgba(12, 73, 116, 0.10) 0%, rgba(0, 0, 0, 0.50) 50%) !important;
+    background-blend-mode: soft-light, screen !important;    
+}
+
+.main_div {
+    justify-content: space-between;
+    transition: 0.5s;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.main_text {
+    margin-right: 50px;
+}
+
+.dashboard_icon {
+    font-size: 25px;
+    transition: transform 0.5s;
+    color: white !important;
+}
+
+li {
+    margin-bottom: 7px;
+}
+
+.sub_button {
+    border: none !important;
+    color: black !important;
+    width: fit-content !important;
+    transition: 0.5s;
+}
+
+.sub_text {
+    margin-left: 10px;
+    color: white !important;
+}
+
+.sub_icon {
+    font-size: 20px;
+    color: white !important;
+}
+
+.me-2 {
+    margin-right: 20px;
+}
+
+.css-2dum1v-MuiDrawer-docked .main_text,
+.css-2dum1v-MuiDrawer-docked .icon {
+    display: none;
+}
+
+.green_icon {
+    color: rgb(90, 27, 199);
+}
+
+.logo {
+    width: 40px;
+    margin-right: 12px;
+    filter: drop-shadow(2px 4px 6px black);
+    border: 2px solid white;
+    border-radius: 57px;
+    background-color: aqua;
+    mix-blend-mode: luminosity;
+}
+
+.css-hyum1k-MuiToolbar-root {
+    padding-left: 12px !important;
+}
+
+.css-p55zm9-MuiButtonBase-root-MuiIconButton-root {
+    margin-left: 10px !important;
+    margin-right: 0px !important;
+}
+
+.nav_div {
+    align-self: center !important;
+}
+
+.nav_div ul {
+    margin-top: 8px;
+    margin-bottom: 0;
+    padding-left: 12px;
+}
+
+.r_nav_menu li .button {
+    color: white;
+}
+
+.user_text {
+    margin-right: 50px;
+}
+
+.logo_text {
+    margin-right: 70px;
+    margin-top: 5px;
+}
+
+
+.css-2dum1v-MuiDrawer-docked .MuiDrawer-paper,
+.css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper {
+    background-color: rgb(12,73,116);
+}
+/* .log_out_btn:hover{
+    background-color: #ffffff !important;
+    background-image: linear-gradient(to bottom, rgba(206, 206, 206, 0.5) 0%, rgba(19, 101, 188, 0.5) 100%), radial-gradient(at 50% 0%, rgba(132, 106, 202, 0.578) 0%, rgba(0, 0, 0, 0.50) 50%) !important;
+    background-blend-mode: soft-light, screen !important
+} */
+
+.css-1191obr-MuiPaper-root-MuiAppBar-root .logo_div,
+.css-1191obr-MuiPaper-root-MuiAppBar-root .vertical_divider {
+    display: none;
+}
+
+.logo_box {
+    height: 64px;
+}
+
+.css-2dum1v-MuiDrawer-docked .MuiDrawer-paper .user_text {
+    display: none !important;
+}
+
+.css-1bntj9o {
+    margin-left: 5px !important;
+}
+
+.drawer_logo {
+    margin-left: 6px;
+}
+
+.main_flex {
+    display: grid;
+    align-content: space-between;
+    height: 85vh;
+}
+
+.secon_ul {
+    padding: 0 20px !important;
+    margin-bottom: 30px !important;
+}
+.css-2dum1v-MuiDrawer-docked .secon_ul{
+    padding: 0 23px !important;
+    
+}
+
+.log_out_btn {
+    width: 100%;
+    background-color: #ffffff !important;
+}
+
+::-webkit-scrollbar {
+    width: 4px !important;
+}
+.css-2dum1v-MuiDrawer-docked .btn_text{
+    display: none !important;
+}
+.css-2dum1v-MuiDrawer-docked .log_out_btn{
+    margin-left: -14px;
+    border-radius: 30px;
+    min-width: fit-content !important;
+    padding: 10px 15px;
+}
+
+
+.css-2dum1v-MuiDrawer-docked .css-1d6wzja-MuiButton-startIcon{
+    margin-right: 0 !important;
+}
